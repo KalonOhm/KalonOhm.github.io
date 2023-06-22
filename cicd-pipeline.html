@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/ae33528a15.js" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Codde+pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Item -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        CI/CD Pipeline<strong>Dashboard</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-vuejs"></i>
+        <i class="fa-brands fa-node"></i>
+        <i class="fa-brands fa-node-js"></i>
+        <i class="fa-brands fa-bitbucket"></i>
+      </p>
+      <img
+        src="img/pipeline/dashboard.jpg"
+        alt="a picture of my project"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="portfolio-item-individual">
+      <p>
+        This was the capstone project for my time at Codefi. It was a group project that I worked on with 3 other students over the course of our final month. We were tasked with creating a dashboard that would display the status of CI/CD pipelines for a local start-up, <a href="https://www.linkedin.com/company/warehq-labs/" class="text-link" target="_blank">WareHQ Labs</a>. We were given a list of requirements and data with which to test multiple outputs to the dashboard.
+      </p>
+      <p> 
+        Our requirements included several new-to-us technologies, namely Vue.js for the front end and Node.js/Express.js for the back end. We were also required to use Bitbucket for version control, when we were used to GitHub. In addition, we utilized MongoDB for a intermediary database, which was also new to me. 
+      </p>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 7</div>
+          <img
+            src="img/pipeline/pipe1.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 7</div>
+          <img
+            src="img/pipeline/auth-frontend.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 7</div>
+          <img
+            src="img/pipeline/dashboard.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 7</div>
+          <img
+            src="img/pipeline/loading.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 7</div>
+          <img
+            src="img/pipeline/mongodb.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 7</div>
+          <img
+            src="img/pipeline/auth-backend.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 7</div>
+          <img
+            src="img/pipeline/bitbucket.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+
+      <div class="portfolio-item-individual__link">
+        As this code is proprietary, I haven't linked the repository here.
+      </div>
+      <p>
+        My main contribution to the project was setting up the authorization and authentication, for which the client suggested that we use Auth0. I made sure users couldn't access the site without being logged in, and set up additional authorization checks on the back end so that the dashboard would only display data if the user was logged in with a valid and unexpired access token.
+      </p>
+      <p>
+        Another contribution involved identifying a method to recognize when a pipeline step was in progress, so that we could display a loading animation. The data would only show a result of "success"or "failure", or "stopped" if it was manually cancelled before completion. If the step was still in progress or waiting for earlier steps, it would show "undefined", even for steps that needed a manual start. We didn't want pending steps to show the loading animation, only the current step if in progress. I was able to identify a method to check if the step had a start time, but no end time, and only display the loading animation if this was the case.  
+      </p>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="footer" id="contact">
+      <h3 class="section__title section__title--contact"></h3>
+      <a href="mailto:kalonohmstede@gmail.com" class="footer__link">
+        kalonohmstede@gmail.com
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kalonohmstede/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/KalonOhm" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li class="social-lsit__item">
+          <a href="" class="social-list__link">c</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link">d</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li> -->
+      </ul>
+      <div class="footer__text">Copyright Kalon Ohmstede 2023 - All Rights Reserved</div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

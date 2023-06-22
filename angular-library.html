@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/ae33528a15.js" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Codde+pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#services" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Item -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Personal <strong>Bookshelf</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-angular"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-github"></i>
+      </p>
+      <img
+        src="img/angular-books/localhost_4200_bookshelf_2.png"
+        alt="a picture of my project"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="portfolio-item-individual">
+      <p>
+        While the online lesson portion of the Angular course followed the recipe app tutorial, part of the class lessons involved using what we had learned, and transfering those skills to a build a similar project. Instead of recipes and shopping lists, I built a library app similar to my React reading list. This project was built using Angular and Bootsrap.
+      </p>
+      
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (1).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (2).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (3).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (4).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (5).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (6).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (8).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf (9).png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 10</div>
+          <img
+            src="img/angular-books/localhost_4200_bookshelf_2.png"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+      </div>
+      
+      <div class="portfolio-item-individual__link">
+        <a href="https://github.com/KalonOhm/bookit-app" target="_blank">View on Github 
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>
+        It used many of the same types of components and services found in the recipe app, including authorization and connection to Firebase to save and fetch book lists for users. The app allows the user to search results from the OpenLibrary.org API and add those books to their personal bookshelf with one click. The fetch and save buttons are connected to a Firebase API just like in the recipe app, but it has not been deployed to the web.
+      </p>
+      <p>
+        There are several other features that I did not get around to completing. The user was supposed to be able to sort their bookshelf by title or author. The Edit and Delete buttons were made redundant when I switched from manually adding books to pulling information from an outside source, and thus could not be edited, nor deleted from Openlibrary. The blue "-" button will still remove books from the user's bookshelf. There are definite style improveements that could be had, as well as a more robust search function, or the ability to pull accurate book covers instead of using a placeholder image from PlaceKitten.com.
+      </p>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="footer" id="contact">
+      <h3 class="section__title section__title--contact"></h3>
+      <a href="mailto:kalonohmstede@gmail.com" class="footer__link">
+        kalonohmstede@gmail.com
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kalonohmstede/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/KalonOhm" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li class="social-lsit__item">
+          <a href="" class="social-list__link">c</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link">d</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li> -->
+      </ul>
+      <div class="footer__text">Copyright Kalon Ohmstede 2023 - All Rights Reserved</div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/ae33528a15.js" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Codde+pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Item -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Warhammer 40k <strong>Tournament Roster</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-github"></i>
+      </p>
+      <img
+        src="img/wh40k/Screenshot 2023-06-20 194831.png"
+        alt="a picture of my project"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="portfolio-item-individual">
+      <p>
+        This was another early project for Promineo Tech, where we were tasked with making a single page website with a Bootstrap-styled table representing our choice of data, with a similarly-styled form that allow a user to add a new row to the table when submitted. I had gotten into building and painting Warhammer 40k miniatures during the pandemic, so I decided to make my project a basic army roster for a hypothetical tournament.
+      </p>
+      
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img
+            src="img/wh40k/127.0.0.1_5502_index.html.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img
+            src="img/wh40k/Screenshot 2023-06-20 194603.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img
+            src="img/wh40k/Screenshot 2023-06-20 194831.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img
+            src="img/wh40k/127.0.0.1_5502_index.html (1).png"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      
+      <div class="portfolio-item-individual__link">
+        <a href="https://github.com/KalonOhm/WH40K-Registry" target="_blank">View on Github 
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>
+        I tried to make the learning process more fun by working on something that personally interested me, and more challenging by adding a few extra features. I added a dropdown menu to the form that would allow the user to select a faction from a list of options, and a primary detachment type, as well as a number form with arrows you could click or scroll through, along with adding constraints to the type of data several of the input fields would allow. The player first and last name fields would be combined on the roster list once a player submitted their information using the green button. You could then view specific information about each player in the list above the form. 
+      </p>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="footer" id="contact">
+      <h3 class="section__title section__title--contact"></h3>
+      <a href="mailto:kalonohmstede@gmail.com" class="footer__link">
+        kalonohmstede@gmail.com
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kalonohmstede/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/KalonOhm" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li class="social-lsit__item">
+          <a href="" class="social-list__link">c</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link">d</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li> -->
+      </ul>
+      <div class="footer__text">Copyright Kalon Ohmstede 2023 - All Rights Reserved</div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

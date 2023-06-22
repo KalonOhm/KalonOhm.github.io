@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/ae33528a15.js" crossorigin="anonymous"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Codde+pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Item -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Fish Tracker<strong>AquaTanks</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-solid fa-gem"></i>
+        <i class="fa-brands fa-github"></i>
+      </p>
+      <img
+        src="img/fish/fish1.jpg"
+        alt="a picture of my project"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="portfolio-item-individual">
+      <p>
+        For this project, I created a CRUD application entirely within the Rails framework. The application is a simple fish aquarium organizer, where users can create, read, update, and delete aquariums, and ideally the fish within them. The application also includes a user authentication system, so that users can sign up and log in to their own accounts, and view other's accounts without giving write-access to visitors. I also used Tailwind CSS to style the application, branching away from Bootstrap after my experience in the Codefi paid work experience program.
+      </p>
+      
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 11</div>
+          <img
+            src="img/fish/fish1.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 11</div>
+          <img
+            src="img/fish/fish2.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 11</div>
+          <img
+            src="img/fish/fish3.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 11</div>
+          <img
+            src="img/fish/fish4.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 11</div>
+          <img
+            src="img/fish/fish5.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 11</div>
+          <img
+            src="img/fish/fish6.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 11</div>
+          <img
+            src="img/fish/fish7.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 11</div>
+          <img
+            src="img/fish/fish8.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">9 / 11</div>
+          <img
+            src="img/fish/fish9.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">10 / 11</div>
+          <img
+            src="img/fish/fish10.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">11 / 11</div>
+          <img
+            src="img/fish/fish11.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+      </div>
+
+      
+      <div class="portfolio-item-individual__link">
+        <a href="https://github.com/KalonOhm/aquatanks" target="_blank">View on Github 
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>
+        Expanding on an earlier class assignment, I utilized Open-URI and Nokogiri to scrape fish data from three Wikipedia pages listing common varieties of freshwater, salt-water, and brackish aquarium fish. I then seeded the database with the scraped data. My intent was to add a search feature to allow users to search for fish by name, and add them to their aquarium. If a fish from a freshwater tank was added to a brackish or salt-water tank, the user would be prompted with a warning message that it may not be suitable for their aquarium, and vice versa for salt-water fish in freshwater. Brackish fish, which are more comfortable in a wider salinity range, would still get a warning in either fresh or salt-water, but would be allowed to confirm the addition. Unfortunately, I was unable to complete this feature before the project deadline. 
+      </p>
+      <p>
+        The fish are present in the app though, as complete objects with common name, scientific name, a small image, their approximate size in inches, additional facts, and their preferred water type. They can be viewed, and can be seen in the dropdown menu when creating a new aquarium. Users can choose several aspects when creating an aquarium, from water type, gallon size, filter and substrate types, and whether it has live plants or artificial decorations.
+      </p>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="footer" id="contact">
+      <h3 class="section__title section__title--contact"></h3>
+      <a href="mailto:kalonohmstede@gmail.com" class="footer__link">
+        kalonohmstede@gmail.com
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kalonohmstede/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/KalonOhm" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li class="social-lsit__item">
+          <a href="" class="social-list__link">c</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link">d</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li> -->
+      </ul>
+      <div class="footer__text">Copyright Kalon Ohmstede 2023 - All Rights Reserved</div>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>

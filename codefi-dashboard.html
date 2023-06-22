@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script
+      src="https://kit.fontawesome.com/ae33528a15.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha384-M86HUGbBFILBBZ9ykMAbT3nVb0+2C7yZlF8X2CiKNpDOQjKroMJqIeGZ/Le8N2Qp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Codde+pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#education" class="nav__link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Item -->
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        Codefi Student<strong>Video Playlist</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+        <i class="fa-brands fa-docker"></i>
+        <i class="fa-brands fa-github"></i>
+      </p>
+      <img
+        src="img/codefi-dashboard/codefi-2.jpg"
+        alt="a picture of my project"
+        class="intro__img"
+      />
+    </section>
+
+    <section class="portfolio-item-individual">
+      <p>
+        During my time at Codefi, I had the opportunity for a paid work
+        experience. I would be placed with one of several companies partnering
+        with Codefi to allow students to earn while we learn. My previous React
+        experience landed me with
+        <a href="https://codelabs-dash.vercel.app/" class="text-link" target="_blank">Codefi</a>
+        itself, working on the next version of the learning dashboard for
+        prospective students. This project used the Next.js framework, Tailwind
+        CSS, Prisma and Docker.
+      </p>
+      
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img
+            src="img/codefi-dashboard/codefi-1.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img
+            src="img/codefi-dashboard/codefi-2.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img
+            src="img/codefi-dashboard/codefi-3.jpg"
+            style="width: 100%"
+          />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img
+            src="img/codefi-dashboard/codefi-4.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      
+      <div class="portfolio-item-individual__link">
+        <a href="https://github.com/KalonOhm/videos_codelabs" target="_blank"
+          >View the sections of the repository I worked with on Github
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p>
+        This project was a great opportunity to learn more about React through
+        Next.js, and to work with a team of professional developers. I was
+        tasked with adding a video player and interactible playlist for students
+        to watch the lessons. I worked on the arrangement and styling of the
+        dashboard components, database queries, state management, and the
+        functionality of the "Next Video" button.
+      </p>
+      <p>
+        The paid work experience was a part-time commitment alongside keeping up to date with the class responsibilities, and lasted around 2 months. I was able to learn a lot about working with a team of developers, regular stand-ups, sprints, JIRA and how to work with a codebase that I didn't write myself. 
+      </p>
+    </section>
+
+    <!-- Contact Me -->
+    <footer class="footer" id="contact">
+      <h3 class="section__title section__title--contact"></h3>
+      <a href="mailto:kalonohmstede@gmail.com" class="footer__link">
+        kalonohmstede@gmail.com
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/kalonohmstede/"
+            class="social-list__link"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a href="https://github.com/KalonOhm" class="social-list__link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <!-- <li class="social-lsit__item">
+          <a href="" class="social-list__link">c</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link">d</a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li>
+        <li class="social-lsit__item">
+          <a href="" class="social-list__link"></a>
+        </li> -->
+      </ul>
+      <div class="footer__text">
+        Copyright Kalon Ohmstede 2023 - All Rights Reserved
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
